@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    width: auto;
+    font-family: Outfit;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card {position: relative;
+    margin:auto;
+    padding: 15px;
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.text {
+    padding: 10px;
+}
+
+#head {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+    font-size: large;
+    text-align: center;
+}
+
+#state {
+    color: hsl(220, 15%, 55%);
+    font-size: medium;
+    text-align: center;
+}
